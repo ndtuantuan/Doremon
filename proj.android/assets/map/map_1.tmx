@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="6" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="bump" tilewidth="64" tileheight="64">
+  <image source="bump.png" width="128" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="isBridge" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="tileset" tilewidth="64" tileheight="64">
+  <image source="tileset.png" width="448" height="704"/>
+ </tileset>
+ <layer name="collision" width="40" height="6" opacity="0.4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AU4AJMgxwDAB1gAFE=
+  </data>
+ </layer>
+ <layer name="ground_1_1" width="40" height="6">
+  <data encoding="base64" compression="zlib">
+   eJzTYGBg0ARiLQZUoEGiOK2APhAbALEhmt3EiNMb4LJ7IN00CigDbIMcAwA9vAYo
+  </data>
+ </layer>
+ <layer name="ground_2" width="40" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcQBuKGZDowQJA7jFiQLjRaGCdgwFgbjNiGHxug4HB6q6hCgCZqwJa
+  </data>
+ </layer>
+ <objectgroup name="objects" width="40" height="6">
+  <object name="chaien" x="130" y="259" width="61" height="60"/>
+  <object name="nobita" x="385" y="259" width="64" height="60"/>
+  <object name="animal" type="1" x="897" y="258" width="64" height="63"/>
+  <object name="animal" type="3" x="1665" y="257" width="63" height="61"/>
+ </objectgroup>
+ <objectgroup name="chaien_jump_pos" width="40" height="6">
+  <object x="1024" y="256" width="62" height="62"/>
+  <object x="1793" y="258" width="63" height="62"/>
+ </objectgroup>
+</map>

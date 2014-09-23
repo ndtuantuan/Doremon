@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="105" height="6" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="bump" tilewidth="64" tileheight="64">
+  <image source="../bump.png" width="128" height="64"/>
+  <tile id="1">
+   <properties>
+    <property name="isBridge" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="3" name="tileset" tilewidth="64" tileheight="64">
+  <image source="../tileset.png" width="448" height="704"/>
+ </tileset>
+ <layer name="collision" width="105" height="6" opacity="0.4">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFbASCIeBbgBKWEIYzPhwNQI79H4HF4AX3qhBUZOH6SWE5TgUTD4AQCqIwCD
+  </data>
+ </layer>
+ <layer name="ground_1_1" width="105" height="6">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFIxWIk6DWimauGB6AmLAUg9KcQMyBRx2yvBwQCxGJHUl29cgCoLCUxoNlgFgWqlYAiPmBWBEHhslTApiBWI8BEX8yWPBgACZAbArEZkBsjsbHB2DqkdWB+GpArI5DDxcQcxPAPOR4gg5AkgF3eqEFlkSy2xqIbYDYFojt0PjY0hUMw9SDaFAa1IPydRlQ0yYyHspxpDDM7YMBAA+rEGc=
+  </data>
+ </layer>
+ <layer name="ground_2" width="105" height="6">
+  <data encoding="base64" compression="zlib">
+   eJztkksKwCAMRHOctkI/XsGd9z9Qk4UwDEEQbOnHBwMmszAMIzIYDJ5KoHlSzaqF3ka68a63ghmVbDFHz/dAL5K3qXbVQW8jN9xS+//LYEYlW8zR8z1qXq9bevzRA+sK9imBhPaBZoN7t15z5q+xrmCfMkhoH2k2Wnp3Al52Di0=
+  </data>
+ </layer>
+ <objectgroup name="objects" width="105" height="6">
+  <object name="chaien" x="130" y="131" width="61" height="58"/>
+  <object name="nobita" x="256" y="130" width="61" height="60"/>
+  <object name="animal" type="2" x="1986" y="67" width="62" height="60"/>
+  <object name="ob" type="3" x="2495" y="130" width="64" height="60"/>
+  <object name="ob" type="1" x="3330" y="194" width="62" height="62"/>
+  <object name="animal" type="2" x="4161" y="193" width="63" height="61"/>
+  <object name="ob" type="1" x="5249" y="194" width="61" height="60"/>
+  <object name="ob" type="1" x="5569" y="193" width="60" height="61"/>
+  <object name="animal" type="2" x="6208" y="192" width="65" height="62"/>
+  <object name="ob" type="3" x="3648" y="192" width="64" height="63"/>
+  <object name="pie" type="-1" x="3842" y="193" width="61" height="60"/>
+  <object name="pie" type="-1" x="2753" y="127" width="61" height="62"/>
+  <object name="ob" type="3" x="959" y="129" width="64" height="61"/>
+ </objectgroup>
+ <objectgroup name="chaien_jump_pos" width="105" height="6">
+  <object x="706" y="131" width="60" height="60"/>
+  <object x="1408" y="66" width="63" height="60"/>
+  <object x="2305" y="128" width="62" height="63"/>
+  <object x="3009" y="194" width="62" height="59"/>
+  <object x="4993" y="193" width="62" height="60"/>
+ </objectgroup>
+</map>
